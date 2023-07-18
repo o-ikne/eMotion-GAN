@@ -69,13 +69,13 @@ By default, the training datasets are structured as follows:
 python generate_data_files.py --dataset_name SNAP
                               --data_dir_F ./datasets/SNAPcam1/ 
                               --data_dir_NF ./datasets/SNAPcam2 
-                              --save_dir_F ./datasets optical_flows/ 
+                              --save_dir_F ./datasets/optical_flows/ 
                               --save_dir_NF ./datasets/optical_flows/ 
                               --emotions_file_path ./datasets/emotions/SNAP_emotions.csv 
                               --flow_algo Farneback
 ```
 
-### training
+### Training
 
 Download [DMUE](https://github.com/JDAI-CV/FaceX-Zoo/tree/main/addition_module/DMUE) and its pre-trained model.
 
