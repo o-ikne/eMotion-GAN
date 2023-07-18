@@ -7,7 +7,7 @@ This repository contains the source code for our paper:
 ![hippo](images/anim.gif)
 
 ## **Updates**
-- The full version of the code will be available soon!
+- Pre-trained weights coming soon!
 
 ## **Installation**
 Create and activate conda environment:
