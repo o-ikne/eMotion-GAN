@@ -3,8 +3,6 @@ This repository contains the source code for our paper:
 
 **eMotion-GAN: A Motion-based GAN for Photorealistic and Facial Expression Preserving Frontal View Synthesis**
 
-Run our interactive visualization [demo](https://colab.research.google.com/drive/1KTyN7DJnI5P_1HMoEiSBmw-IWWkCR5Jc?usp=sharing) using Colab notebook (no GPU needed).
-
 ![hippo](images/our_new_approach.png)
 ![hippo](images/anim.gif)
 
@@ -31,6 +29,10 @@ conda install -c conda-forge jupyterlab
 Download the pre-trained weights file from [Google Drive](https://drive.google.com/file/d/1jnEIj0XQ5YA23HDItuF0gXMO-0UWTFK8/view?usp=drive_link). Move it to the `./weights` folder.
 
 ### Demos
+
+Run our interactive visualization [demo](https://colab.research.google.com/drive/1KTyN7DJnI5P_1HMoEiSBmw-IWWkCR5Jc?usp=sharing) using Colab notebook (no GPU needed).
+
+
 ![hippo](anim.gif)
 
 ### Frontal View Synthesis (FVS) & Facial Expression Preserving 
