@@ -3,7 +3,7 @@ This repository contains the source code for our paper:
 
 **eMotion-GAN: A Motion-based GAN for Photorealistic and Facial Expression Preserving Frontal View Synthesis**
 
-Google colab [demo](https://colab.research.google.com/drive/1KTyN7DJnI5P_1HMoEiSBmw-IWWkCR5Jc?usp=sharing)
+Run our interactive visualization [demo](https://colab.research.google.com/drive/1KTyN7DJnI5P_1HMoEiSBmw-IWWkCR5Jc?usp=sharing) using Colab notebook (no GPU needed).
 
 ![hippo](images/our_new_approach.png)
 ![hippo](images/anim.gif)
