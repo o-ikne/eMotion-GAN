@@ -289,29 +289,29 @@ def calc_flow(img1, img2, algo='Farneback'):
 
     ## to gray
     if len(img1.shape) == 3 and img1.shape[-1] == 3:
-        img1 = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
+        img1 = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
         img2 = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
 
     if algo == 'Farneback':
-        flow = cv2.calcOpticalFlowFarneback(im_1, im_2,  None, 0.5, 3, 15, 3, 5, 1.2, 0)
+        flow = cv2.calcOpticalFlowFarneback(img1, img2,  None, 0.5, 3, 15, 3, 5, 1.2, 0)
 
     elif algo == 'DIS':
         inst = cv2.DISOpticalFlow_create(cv2.DISOPTICAL_FLOW_PRESET_MEDIUM)
-        flow = inst.calc(im_1, im_2, None)
+        flow = inst.calc(img1, img2, None)
 
     elif algo == 'Sparse':
-        flow = cv2.optflow.calcOpticalFlowSparseToDense(im_1, im_2, None, 8, 128, 0.05, True, 500.0, 1.5)
+        flow = cv2.optflow.calcOpticalFlowSparseToDense(img1, img2, None, 8, 128, 0.05, True, 500.0, 1.5)
 
     elif algo == 'Deep':
         inst = cv2.optflow.createOptFlow_DeepFlow()
-        flow = inst.calc(im_1, im_2, None)
+        flow = inst.calc(img1, img2, None)
 
     elif algo == 'PCA':
         inst = cv2.optflow.createOptFlow_PCAFlow()
-        flow = inst.calc(im_1, im_2, None)
+        flow = inst.calc(img1, img2, None)
 
     else:
         inst = cv2.optflow.createOptFlow_DualTVL1()
-        flow = inst.calc(im_1, im_2, None)         
+        flow = inst.calc(img1, img2, None)         
 
     return flow
