@@ -66,4 +66,3 @@ class LayerNorm(nn.Module):
             shape = [1, -1] + [1] * (x.dim() - 2)
             x = x * self.gamma.view(*shape) + self.beta.view(*shape)
         return x
-
