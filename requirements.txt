@@ -1,0 +1,17 @@
+imageio==2.26.0
+pillow==9.2.0
+matplotlib==3.6.2
+seaborn==0.12.2
+numpy==1.23.3
+opencv-contrib-python==4.6.0.66
+opencv-python==4.6.0.66
+pandas==1.5.1
+pyparsing==3.0.9
+python-dateutil==2.8.1
+pytz==2022.6
+scipy==1.9.3
+six==1.16.0
+tensorboardx==2.5.1
+tqdm==4.19.9
+torch==1.13.1
+torchvision>=0.5.0
