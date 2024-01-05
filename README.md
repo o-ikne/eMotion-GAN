@@ -26,6 +26,8 @@ Install Jupyter Lab to visualize demo:
 conda install -c conda-forge jupyterlab
 ```
 
+Download the pre-trained weights file from [Google Drive](https://drive.google.com/file/d/1jnEIj0XQ5YA23HDItuF0gXMO-0UWTFK8/view?usp=drive_link). Move it to the `./weights` folder.
+
 ### Demos
 ![hippo](anim.gif)
 
