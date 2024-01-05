@@ -34,7 +34,7 @@ def tensor2array(tensor):
         array = array.transpose((0, 2, 3, 1)).astype(np.float32)
     else:
         array = array.transpose((1, 2, 0)).astype(np.float32)
-    return torch.from_numpy(array)
+    return array
 
 
 def get_fold(k, protocol):
