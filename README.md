@@ -1,4 +1,4 @@
-# eMotion-GAN
+# eMotion-GAN [Google Drive](https://drive.google.com/file/d/1jnEIj0XQ5YA23HDItuF0gXMO-0UWTFK8/view?usp=drive_link)
 This repository contains the source code for our paper:
 
 **eMotion-GAN: A Motion-based GAN for Photorealistic and Facial Expression Preserving Frontal View Synthesis**
@@ -7,7 +7,7 @@ This repository contains the source code for our paper:
 ![hippo](images/anim.gif)
 
 ## **Updates**
-- Pre-trained weights coming soon!
+- ...
 
 ## **Installation**
 Create and activate conda environment:
