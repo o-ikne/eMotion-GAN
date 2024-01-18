@@ -1,4 +1,6 @@
-# eMotion-GAN [Google Drive](https://drive.google.com/file/d/1jnEIj0XQ5YA23HDItuF0gXMO-0UWTFK8/view?usp=drive_link)
+# eMotion-GAN
+
+### [[Colab Demo](https://colab.research.google.com/drive/1KTyN7DJnI5P_1HMoEiSBmw-IWWkCR5Jc?usp=sharing) 😀]
 This repository contains the source code for our paper:
 
 **eMotion-GAN: A Motion-based GAN for Photorealistic and Facial Expression Preserving Frontal View Synthesis**
