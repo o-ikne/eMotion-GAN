@@ -38,7 +38,7 @@ def tensor2array(tensor):
 
 
 def get_fold(k, protocol):
-    train_idx  = proto[f'Fold {k}'] == 0
+    train_idx  = protocol[f'Fold {k}'] == 0
     train_fold = protocol[train_idx][['subject', 'file', 'emotion']].values
     test_fold  = protocol[~train_idx][['subject', 'file', 'emotion']].values
     return train_fold, test_fold
