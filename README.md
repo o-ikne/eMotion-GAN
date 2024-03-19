@@ -5,8 +5,6 @@ This repository contains the source code for our paper:
 
 **eMotion-GAN: A Motion-based GAN for Photorealistic and Facial Expression Preserving Frontal View Synthesis**
 
-**Approach:**
-
 ![hippo](images/our_new_approach.png)
 
 **[Supplementary Video](https://imtcast.imt.fr/video/5397-emotion-gan-supplementary-video/):**
