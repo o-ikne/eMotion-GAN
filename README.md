@@ -9,8 +9,7 @@ This repository contains the source code for our paper:
 
 **[Supplementary Video](https://imtcast.imt.fr/video/5397-emotion-gan-supplementary-video/):**
 
-
-![hippo](images/supplementary_video.mp4)
+![hippo](https://chart.apis.google.com/chart?cht=qr&chs=200x200&chl=https://imtcast.imt.fr/video/5397-emotion-gan-supplementary-video/)
 
 **Animation:**
 
