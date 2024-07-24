@@ -119,5 +119,12 @@ python motion_transfer_demo.py --img1 images/images_1.png
 ## Citation
 If you find this repo useful, please consider citing our paper
 
-```ref```
+```
+@article{ikne2024emotion,
+  title={eMotion-GAN: A Motion-based GAN for Photorealistic and Facial Expression Preserving Frontal View Synthesis},
+  author={Ikne, Omar and Allaert, Benjamin and Bilasco, Ioan Marius and Wannous, Hazem},
+  journal={arXiv preprint arXiv:2404.09940},
+  year={2024}
+}
+```
 
