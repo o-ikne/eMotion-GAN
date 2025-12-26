@@ -7,9 +7,11 @@ This repository contains the source code for our paper:
 
 ![hippo](images/our_new_approach.png)
 
-[![Watch the video](THUMBNAIL_URL)]([VIDEO_URL](https://imtcast.imt.fr/video/5397-emotion-gan-supplementary-video/))
+## **Supplementary Video**
+Check out our **[Supplementary Video](https://imtcast.imt.fr/video/5397-emotion-gan-supplementary-video/)**  for more details & results. 
 
-Check out our **[Supplementary Video](https://imtcast.imt.fr/video/5397-emotion-gan-supplementary-video/)** for more details & results. 
+[![Watch the video](images/video_emotiogan.png)](https://imtcast.imt.fr/video/5397-emotion-gan-supplementary-video/)
+
 
 **Animation:**
 
