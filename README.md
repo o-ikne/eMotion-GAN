@@ -1,4 +1,20 @@
-# eMotion-GAN
+<div align= "center">
+    <h1> eMotion-GAN <img src="./images/emotiongan.jpg" width="35px"></h1>
+
+</div>
+
+<div align="center">
+    <h2> <a href="https://o-ikne.github.io/eMotionGAN/">eMotion-GAN: A Motion-based GAN for Photorealistic and Facial Expression Preserving Frontal View Synthesis
+</a></h2>
+
+<p align="center">
+  <a href="https://o-ikne.github.io/eMotionGAN/">Project Page</a> •
+  <a href="https://www.sciencedirect.com/science/article/pii/S1077314225002784">Paper</a> •
+  <a href="https://colab.research.google.com/drive/1KTyN7DJnI5P_1HMoEiSBmw-IWWkCR5Jc?usp=sharing">Colab Demo</a> •
+  <a href="#-citation">Citation
+</p>
+
+</div>
 
 ### [[Colab Demo](https://colab.research.google.com/drive/1KTyN7DJnI5P_1HMoEiSBmw-IWWkCR5Jc?usp=sharing) 😀]
 This repository contains the source code for our paper:
@@ -123,7 +139,7 @@ python motion_transfer_demo.py --img1 images/images_1.png
 ```
 
 
-## Citation
+## 📖 Citation
 If you find this repo useful, please consider citing our paper
 
 ```
